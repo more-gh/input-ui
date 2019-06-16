@@ -1,6 +1,4 @@
-# vue-init
-
-> A Vue.js project
+> A Vue component test project
 
 ## Build Setup
 
