@@ -1,0 +1,43 @@
+{
+  "name": "deng-input-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/deng-input-ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=prod webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/more-gh/input-ui.git"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "author": "more",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/more-gh/input-ui/issues"
+  },
+  "homepage": "https://github.com/more-gh/input-ui#readme",
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
