@@ -4,13 +4,14 @@ const cmps = [
     dengInput
 ]
 
-const useCmps = vue => {
+const install = vue => {
     cmps.map(cmp => {
         vue.component(cmp.name, cmp)
     })
 }
-if(window && window.Vue) useCmps(window.Vue)
+if(window && window.Vue) install(window.Vue)
 
 export default {
+    install,
     dengInput
 }

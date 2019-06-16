@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-    name: 'deng-input',
+    name: 'dengInput',
     props: {
         disabled: {
             type: Boolean,

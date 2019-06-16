@@ -1,6 +1,6 @@
 {
   "name": "deng-input-ui",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/deng-input-ui.js",
   "scripts": {
