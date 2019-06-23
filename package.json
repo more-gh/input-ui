@@ -1,15 +1,15 @@
 {
-  "name": "deng-input-ui",
+  "name": "input-ui",
   "version": "1.0.3",
   "description": "",
-  "main": "lib/deng-input-ui.js",
+  "main": "lib/input-ui.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf lib && rimraf packages/*/lib && rimraf test/**/coverage",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=prod webpack --progress --hide-modules",
-    "comps": "npm run clean && webpack --config webpack.comps.js --progress --hide-modules",
-    "compIndex": "webpack --config webpack.comps.index.js --progress --hide-modules",
+    "comps": "npm run clean && cross-env NODE_ENV=prod webpack --config webpack.comps.js --progress --hide-modules",
+    "compIndex": "cross-env NODE_ENV=prod webpack --config webpack.comps.index.js --progress --hide-modules",
     "dist": "npm run comps && npm run build && npm run compIndex"
   },
   "repository": {

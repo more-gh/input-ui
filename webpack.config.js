@@ -8,14 +8,14 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './lib'),
     publicPath: '/dist/',
-    filename: 'deng-input-ui.js',
-    library: 'deng-input-ui',
+    filename: 'input-ui.js',
+    library: 'input-ui',
     libraryExport: 'default',
     libraryTarget: 'umd'
   },
-  // externals: {
-  //   vue: 'vue'
-  // },
+  externals: {
+    vue: 'vue'
+  },
   module: {
     rules: [{
       test: /\.js$/,
