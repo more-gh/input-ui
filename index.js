@@ -1,7 +1,11 @@
-import dengInput from 'src/cmps/input/index.vue'
+import Input from 'src/cmps/input/index.js'
+import Toast from 'src/cmps/toast/index.js'
+import Button from 'src/cmps/button/index.js'
 
 const cmps = [
-    dengInput
+    Input,
+    Toast,
+    Button
 ]
 
 const install = vue => {
@@ -13,5 +17,7 @@ if(window && window.Vue) install(window.Vue)
 
 export default {
     install,
-    dengInput
+    Input,
+    Toast,
+    Button
 }

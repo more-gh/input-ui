@@ -1,4 +1,4 @@
-<<template>
+<template>
     <input 
         class="deng-input"
         @input="onInput($event)"

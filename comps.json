@@ -1,0 +1,5 @@
+{
+  "input": "./src/cmps/input",
+  "toast": "./src/cmps/toast",
+  "button": "./src/cmps/button"
+}
